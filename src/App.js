@@ -6,8 +6,10 @@ import NewDog from './components/AddDog'
 function App() {
   return (
     <div className="App">
-      <Dogs onDogSelected = {e => console.log(e)}/>
+      <h1>Welcome to Dogs!</h1>
       <NewDog/>
+      <Dogs onDogSelected = {e => console.log(e)}/>
+      
     </div>
   );
 }
